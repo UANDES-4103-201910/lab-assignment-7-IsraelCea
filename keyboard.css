@@ -8,24 +8,30 @@
 
 #kcontainer{
 	background-color: black;
-	background-position: auto;	
+	background-position: auto;
+
 }
 
 .filaTeclas {
    margin-bottom: 5px;
+   display: block;
   float: center;
   background-color: black;
   margin: 10px;
   padding: 10px;
   font-size: 30px;
+  height: 50px;
+  width: 100%;
   font-size-adjust: all;
   text-align: center;
+  box-sizing: border-box;
 
 }
 
 .characterSQ{
-	border: 1px outset black;
-	/*border-radius: 25px*/
+	border: 2px outset black;
+	display:inline-block;
+	border-radius: 15px;
    background-color: silver;
    font-size: 20px
    height:50px;
@@ -33,40 +39,48 @@
    padding:10px;
    cursor:pointer;
 
+
 }
 
 .characterREC{
 	border: 1px outset black;
+	display:inline-block;
    background-color: silver;
+   border-radius: 15px;
    font-size: 20px
    height:50px;
    width:100px;
    padding:10px;
    cursor:pointer;
 
+
 }
 
 .characterLarge{
 	border: 1px outset black;
-	/*border-radius: 25px*/
+	display: inline-block;
+	border-radius: 15px;
    background-color: silver;
    font-size: 20px
-   height:50px;
-   width:500px;
+   height:100px;
+   width:300px;
    padding:10px;
    cursor:pointer;
+
 
 }
 
 .controlkey{
 	border: 1px outset black;
-	/*border-radius: 25px*/
+	display:inline-block;
+	border-radius: 15px;
    background-color: orange;
    font-size: 20px
    height:50px;
    width:110px;
    padding:10px;
    cursor:pointer;
+
 
 }
 
@@ -82,13 +96,3 @@
 .characterLarge:active {
 	background-color: red;
 }
-/*
-
-div:active {
-    background-color: red;
-}
-
-div:focus{
-	background-color: grey;
-}
-*/
