@@ -1,3 +1,72 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+/*.filaTeclas {
+  display: flex;
+  background-color: black;
+}*/
+
+#kcontainer{
+	background-color: black;
+	background-position: auto;
+	
+}
+.filaTeclas {
+   margin-bottom: 5px;
+  float: center;
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  font-size-adjust: all;
+  text-align: center;
+
+}
+
+.characterSQ{
+	border: 1px outset black;
+	/*border-radius: 25px*/
+   background-color: silver;
+   font-size: 20px
+   height:50px;
+   width:50px;
+   padding:10px;
+   cursor:pointer;
+
+}
+
+.characterREC{
+	border: 1px outset black;
+   background-color: silver;
+   font-size: 20px
+   height:50px;
+   width:100px;
+   padding:10px;
+   cursor:pointer;
+
+}
+
+.characterLarge{
+	border: 1px outset black;
+	/*border-radius: 25px*/
+   background-color: silver;
+   font-size: 20px
+   height:50px;
+   width:500px;
+   padding:10px;
+   cursor:pointer;
+
+}
+
+.controlkey{
+	border: 1px outset black;
+	/*border-radius: 25px*/
+   background-color: orange;
+   font-size: 20px
+   height:50px;
+   width:110px;
+   padding:10px;
+   cursor:pointer;
+
+}
+
