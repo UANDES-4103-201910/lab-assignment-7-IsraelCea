@@ -8,9 +8,9 @@
 
 #kcontainer{
 	background-color: black;
-	background-position: auto;
-	
+	background-position: auto;	
 }
+
 .filaTeclas {
    margin-bottom: 5px;
   float: center;
@@ -70,3 +70,25 @@
 
 }
 
+.controlkey:active {
+	background-color: red;
+}
+.characterSQ:active {
+	background-color: red;
+}
+.characterREC:active {
+	background-color: red;
+}
+.characterLarge:active {
+	background-color: red;
+}
+/*
+
+div:active {
+    background-color: red;
+}
+
+div:focus{
+	background-color: grey;
+}
+*/
